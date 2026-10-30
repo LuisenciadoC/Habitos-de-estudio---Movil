@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#5D0D18">
+  <meta name="description" content="Hábitos de Estudio: organiza tus materias, tareas, flashcards y notas.">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Hábitos">
+  <title>Hábitos de Estudio</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500;600;700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=12">
+</head>
+<body>
+  <div id="phone">
+    <div id="statusbar" aria-hidden="true">
+      <span id="sb-time">9:41</span><i class="notch"></i>
+      <span class="sb-icons">
+        <svg viewBox="0 0 18 12"><rect x="0" y="8" width="3" height="4" rx="1"/><rect x="5" y="5.5" width="3" height="6.5" rx="1"/><rect x="10" y="3" width="3" height="9" rx="1"/><rect x="15" y="0" width="3" height="12" rx="1"/></svg>
+        <svg viewBox="0 0 16 12"><path d="M8 11.5 5.6 9a3.4 3.4 0 0 1 4.8 0zM3.5 6.9a6.4 6.4 0 0 1 9 0L11.4 8a4.9 4.9 0 0 0-6.8 0zM1.3 4.7a9.5 9.5 0 0 1 13.4 0l-1.1 1.1a7.9 7.9 0 0 0-11.2 0z"/></svg>
+        <svg viewBox="0 0 27 12"><rect x=".5" y=".5" width="23" height="11" rx="3" fill="none" stroke="currentColor" opacity=".4"/><rect x="2" y="2" width="20" height="8" rx="1.8"/><path d="M25 4v4a2 2 0 0 0 0-4z" opacity=".4"/></svg>
+      </span>
+    </div>
+    <div id="app"></div>
+    <div id="overlay-root"></div>
+    <div id="toast-root"></div>
+  </div>
+  <script src="app.js?v=12"></script>
+</body>
+</html>
